@@ -1,0 +1,26 @@
+INSTALL
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache
+build
+target
+
+#for Intellij
+\.idea
+*.iml
+
+#for guava rpm maker
+guava-rpm-maker/\.project
+
+# for mac finder
+.DS_Store
+
+# for eclipse
+.pydevproject
+.metadata
+.project
+.classpath
+.settings
+
+
