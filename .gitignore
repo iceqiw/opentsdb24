@@ -7,7 +7,7 @@ build
 target
 
 #for Intellij
-\.idea
+.idea
 *.iml
 
 #for guava rpm maker

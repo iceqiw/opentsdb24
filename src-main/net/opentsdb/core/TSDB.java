@@ -850,6 +850,7 @@ public final class TSDB {
       collectUidStats(tag_names, collector);
       collectUidStats(tag_values, collector);
 
+
       if (config.getBoolean("tsd.core.uid.random_metrics")) {
         collector.record("uid.ids-used", 0, "kind=" + METRICS_QUAL);
         collector.record("uid.ids-available", 0, "kind=" + METRICS_QUAL);
